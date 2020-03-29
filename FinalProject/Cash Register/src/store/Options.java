@@ -156,7 +156,7 @@ public class Options {
 					break;
 				
 				case 14:
-					System.out.println("Please write the name, brand, price, type and quantity for your animal!");
+					System.out.println("Please write the name, brand, and price for your cosmetics!");
 					Scanner scanner10 = new Scanner(System.in);
 					String []temp10 = scanner10.nextLine().split(" ");
 					addProduct(new Cosmetics(temp10[0], temp10[1], Double.parseDouble(temp10[2])));

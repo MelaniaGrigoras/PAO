@@ -13,6 +13,6 @@ public class Employee extends Person{
 	}
 	
 	public String toString() {
-		return super.toString() + " are salariul de " + this.salary;
+		return super.toString() + " si salariul : " + this.salary + " $";
 	}
 }

@@ -18,7 +18,7 @@ public abstract class Person {
 	}
 	
 	public String toString() {
-		return this.name + " are " + this.age + " de ani\n";
+		return this.name + " are " + this.age + " de ani ";
 	}
 
 }

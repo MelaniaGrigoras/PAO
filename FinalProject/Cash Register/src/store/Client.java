@@ -38,7 +38,7 @@ public class Client extends Person{
 				System.out.println("Te rog sa introduci pinul");
 				int pin = s.nextInt();
 				
-				this.debitCard = new DebitCard(pin);
+				this.debitCard = new DebitCard(pin);//verificare
 				
 				s.close();
 				
@@ -53,7 +53,7 @@ public class Client extends Person{
 	
 	@Override
 	public String toString() {
-		return super.toString() + "\n";
+		return super.toString();
 	}
 	
 	public DebitCard getDebitCard() {

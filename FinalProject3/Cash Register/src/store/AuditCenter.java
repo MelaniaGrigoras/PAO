@@ -19,10 +19,8 @@ public class AuditCenter extends Thread {
     public void run() {
         System.out.println("Running " + threadName);
         try{
-//            for(int i = 0; i < 5; i++) {
                 System.out.println("Thread " + threadName);
                 Thread.sleep(10000);
-//            }
         } catch (InterruptedException e) {
             System.out.println("Thread " + threadName + " interrupted.");
         }
